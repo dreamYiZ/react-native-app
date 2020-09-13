@@ -4,14 +4,19 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  post: undefined;
+  me: undefined;
+  动态: undefined;
+  我的: undefined;
 };
 
 export type TabOneParamList = {
-  TabOneScreen: undefined;
+  post: undefined;
+  动态: undefined;
 };
 
 export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+  // TabTwoScreen: undefined;
+  我的: undefined;
+  me: undefined;
 };

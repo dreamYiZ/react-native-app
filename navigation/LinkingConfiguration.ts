@@ -6,14 +6,14 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          动态: {
             screens: {
-              TabOneScreen: 'one',
+              post: 'posts',
             },
           },
-          TabTwo: {
+          我的: {
             screens: {
-              TabTwoScreen: 'two',
+              me: 'me',
             },
           },
         },
