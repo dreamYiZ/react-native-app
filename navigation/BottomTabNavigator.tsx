@@ -64,7 +64,7 @@ function TabTwoNavigator() {
   return (
     <TabTwoStack.Navigator>
       <TabTwoStack.Screen
-        name="wo"
+        name="me"
         component={TabTwoScreen}
         options={{ headerTitle: '我的' }}
       />
