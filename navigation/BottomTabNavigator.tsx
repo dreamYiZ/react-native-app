@@ -17,7 +17,7 @@ export default function BottomTabNavigator() {
   return (
     <BottomTab.Navigator
       initialRouteName="post"
-      tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}>
+      tabBarOptions={{ activeTintColor: Colors[colorScheme].tint}}>
       <BottomTab.Screen
         name="动态"
         component={TabOneNavigator}
@@ -52,7 +52,7 @@ function TabOneNavigator() {
       <TabOneStack.Screen
         name="post"
         component={TabOneScreen}
-        options={{ headerTitle: '动态' }}
+        options={{ headerTitle: '动态', headerShown: false }}
       />
     </TabOneStack.Navigator>
   );
@@ -66,7 +66,7 @@ function TabTwoNavigator() {
       <TabTwoStack.Screen
         name="me"
         component={TabTwoScreen}
-        options={{ headerTitle: '我的' }}
+        options={{ headerTitle: '我的' ,headerShown: false}}
       />
     </TabTwoStack.Navigator>
   );

@@ -1,5 +1,6 @@
 import React,{ useState, useEffect} from 'react';
 import { StyleSheet, Alert } from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 
 import { Text, View } from '../components/Themed';
 import { getRandomCatFace } from '../utils/api';
@@ -30,10 +31,76 @@ export default function TabOneScreen() {
     );
   }
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>你好，世界！</Text>
-      <Text style={styles.title} onPress={getGeo}> 获取当前位置</Text>
-    </View>
+    <ScrollView>
+      <Text>Some text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+      <Text>Some more text</Text>
+    </ScrollView>
   );
 }
 
